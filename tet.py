@@ -16,12 +16,12 @@ class Guessing_game:
 game = Guessing_game(15)
 guess = 1 
 while not game.is_correct(guess): 
-    guess = int(input("Enter guess:"))     
+    guess = int(input("ግምትካ አእቱ:"))     
     if game.is_too_low(guess):        
-        print("That is too low!")     
+        print("ብታሚ ውሂዱ!")     
     elif game.is_too_high(guess):         
-        print("That is too high!") 
-print("That is correct!") 
+        print("ብታሚ በዚሑ!") 
+print("እቲ ኪክለና ቊጽሪ እዚ ዩ!") 
 ##################################################################
 class Counte_sum:
     sum_of_the_number=18
